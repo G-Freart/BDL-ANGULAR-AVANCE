@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./ui-header.component.scss']
 })
 export class UiHeaderComponent {
-  @Input() color:UIHeaderColor = 'secondary';
+  @Input() color:UiHeaderColor = 'secondary';
 }
 
-type UIHeaderColor = 'secondary' | 'danger' | 'primary' ;
+type UiHeaderColor = 'secondary' | 'danger' | 'primary' ;

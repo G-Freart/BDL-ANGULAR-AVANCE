@@ -1,0 +1,11 @@
+<button
+  [disabled]="disabled"
+  class="btn"
+  [ngClass]="{
+      'btn-primary': level === 'ACTION',
+      'btn-light':   level === 'CONFIG',
+      'btn-danger':  level === 'CANCEL',
+    }"
+  >
+  <ng-content></ng-content>
+</button>
