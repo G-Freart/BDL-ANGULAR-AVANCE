@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {BdlReactiveService} from "../../../../projects/bdl/src/lib/interfaces/bdl-react-servvice";
+import {BdlReactiveService} from "bdl";
 import {BehaviorSubject} from "rxjs";
 import {BdlUser} from "../interface/bdl-user";
 import {BdlCredentials} from "../interface/bdl-credentials";

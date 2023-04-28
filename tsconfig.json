@@ -9,6 +9,9 @@
       ],
       "@bdl": [
         "dist/bdl"
+      ],
+      "bdl-auth": [
+        "dist/bdl-auth"
       ]
     },
     "outDir": "./dist/out-tsc",

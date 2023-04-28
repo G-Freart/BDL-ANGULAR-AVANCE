@@ -9,4 +9,4 @@ export class UiHeaderComponent {
   @Input() color:UiHeaderColor = 'secondary';
 }
 
-type UiHeaderColor = 'secondary' | 'danger' | 'primary' ;
+export type UiHeaderColor = 'secondary' | 'danger' | 'primary' ;
